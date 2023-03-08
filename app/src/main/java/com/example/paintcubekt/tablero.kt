@@ -1,6 +1,7 @@
 package com.example.paintcubekt
 
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -20,7 +21,7 @@ class tablero : Fragment() {
     ): View? {
         var view = inflater.inflate(R.layout.fragment_tablero, container, false)
 
-
+        Log.d("hola", "hola")
 
         return view
     }
